@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412730EB288DE90300F2A70B /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412730E9288DE90300F2A70B /* CoinTableViewCell.swift */; };
+		412730EC288DE90300F2A70B /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412730EA288DE90300F2A70B /* CoinTableViewCell.xib */; };
+		412730EF288DE99D00F2A70B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412730EE288DE99D00F2A70B /* Extensions.swift */; };
+		92C7959A288AAFB200C4F221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C79599288AAFB200C4F221 /* AppDelegate.swift */; };
+		92C7959C288AAFB200C4F221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C7959B288AAFB200C4F221 /* SceneDelegate.swift */; };
+		92C7959E288AAFB200C4F221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C7959D288AAFB200C4F221 /* ViewController.swift */; };
+		92C795A1288AAFB200C4F221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C7959F288AAFB200C4F221 /* Main.storyboard */; };
+		92C795A3288AAFB400C4F221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C795A2288AAFB400C4F221 /* Assets.xcassets */; };
+		92C795A6288AAFB400C4F221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C795A4288AAFB400C4F221 /* LaunchScreen.storyboard */; };
+		92C795BB288AAFB400C4F221 /* Quilix_Technical_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795BA288AAFB400C4F221 /* Quilix_Technical_TaskUITests.swift */; };
+		92C795BD288AAFB400C4F221 /* Quilix_Technical_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795BC288AAFB400C4F221 /* Quilix_Technical_TaskUITestsLaunchTests.swift */; };
+		92C795D5288ABD0D00C4F221 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795D4288ABD0D00C4F221 /* CoinModel.swift */; };
+		92C795D7288ABD2E00C4F221 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795D6288ABD2E00C4F221 /* CoinData.swift */; };
+		92C795E4288B300C00C4F221 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795E3288B300C00C4F221 /* CoinManager.swift */; };
+		92C795EA288B53CF00C4F221 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795E8288B53CF00C4F221 /* DetailViewController.swift */; };
+		92C795EB288B53CF00C4F221 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C795E9288B53CF00C4F221 /* DetailViewController.xib */; };
+		92C795EE288D7E8C00C4F221 /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C795ED288D7E8C00C4F221 /* MainTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C795AD288AAFB400C4F221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C7958E288AAFB200C4F221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C79595288AAFB200C4F221;
+			remoteInfo = "Quilix Technical Task";
+		};
+		92C795B7288AAFB400C4F221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C7958E288AAFB200C4F221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C79595288AAFB200C4F221;
+			remoteInfo = "Quilix Technical Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		412730E9288DE90300F2A70B /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		412730EA288DE90300F2A70B /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
+		412730EE288DE99D00F2A70B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		92C79596288AAFB200C4F221 /* Quilix Technical Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quilix Technical Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C79599288AAFB200C4F221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92C7959B288AAFB200C4F221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92C7959D288AAFB200C4F221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92C795A0288AAFB200C4F221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C795A2288AAFB400C4F221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C795A5288AAFB400C4F221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C795A7288AAFB400C4F221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C795AC288AAFB400C4F221 /* Quilix Technical TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quilix Technical TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C795B6288AAFB400C4F221 /* Quilix Technical TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quilix Technical TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C795BA288AAFB400C4F221 /* Quilix_Technical_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quilix_Technical_TaskUITests.swift; sourceTree = "<group>"; };
+		92C795BC288AAFB400C4F221 /* Quilix_Technical_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quilix_Technical_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92C795D4288ABD0D00C4F221 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		92C795D6288ABD2E00C4F221 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		92C795E3288B300C00C4F221 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		92C795E8288B53CF00C4F221 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		92C795E9288B53CF00C4F221 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		92C795ED288D7E8C00C4F221 /* MainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C79593288AAFB200C4F221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C795A9288AAFB400C4F221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C795B3288AAFB400C4F221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412730E8288DE8E000F2A70B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				412730E9288DE90300F2A70B /* CoinTableViewCell.swift */,
+				412730EA288DE90300F2A70B /* CoinTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		412730ED288DE98D00F2A70B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				412730EE288DE99D00F2A70B /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92C7958D288AAFB200C4F221 = {
+			isa = PBXGroup;
+			children = (
+				92C79598288AAFB200C4F221 /* Quilix Technical Task */,
+				92C795AF288AAFB400C4F221 /* Quilix Technical TaskTests */,
+				92C795B9288AAFB400C4F221 /* Quilix Technical TaskUITests */,
+				92C79597288AAFB200C4F221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C79597288AAFB200C4F221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C79596288AAFB200C4F221 /* Quilix Technical Task.app */,
+				92C795AC288AAFB400C4F221 /* Quilix Technical TaskTests.xctest */,
+				92C795B6288AAFB400C4F221 /* Quilix Technical TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C79598288AAFB200C4F221 /* Quilix Technical Task */ = {
+			isa = PBXGroup;
+			children = (
+				92C795D3288ABCCA00C4F221 /* Model */,
+				92C795CA288AAFDA00C4F221 /* View */,
+				92C795CB288AAFF300C4F221 /* Controller */,
+				92C795C9288AAFC900C4F221 /* Support Files */,
+				92C795A7288AAFB400C4F221 /* Info.plist */,
+			);
+			path = "Quilix Technical Task";
+			sourceTree = "<group>";
+		};
+		92C795AF288AAFB400C4F221 /* Quilix Technical TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				92C795EC288D7DFC00C4F221 /* TestModule */,
+			);
+			path = "Quilix Technical TaskTests";
+			sourceTree = "<group>";
+		};
+		92C795B9288AAFB400C4F221 /* Quilix Technical TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92C795BA288AAFB400C4F221 /* Quilix_Technical_TaskUITests.swift */,
+				92C795BC288AAFB400C4F221 /* Quilix_Technical_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Quilix Technical TaskUITests";
+			sourceTree = "<group>";
+		};
+		92C795C9288AAFC900C4F221 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				412730ED288DE98D00F2A70B /* Extensions */,
+				92C79599288AAFB200C4F221 /* AppDelegate.swift */,
+				92C7959B288AAFB200C4F221 /* SceneDelegate.swift */,
+				92C795A2288AAFB400C4F221 /* Assets.xcassets */,
+				92C795A4288AAFB400C4F221 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		92C795CA288AAFDA00C4F221 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92C7959F288AAFB200C4F221 /* Main.storyboard */,
+				412730E8288DE8E000F2A70B /* Cell */,
+				92C795E7288B53A100C4F221 /* DetailViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92C795CB288AAFF300C4F221 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92C7959D288AAFB200C4F221 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		92C795D3288ABCCA00C4F221 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92C795D4288ABD0D00C4F221 /* CoinModel.swift */,
+				92C795D6288ABD2E00C4F221 /* CoinData.swift */,
+				92C795E3288B300C00C4F221 /* CoinManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92C795E7288B53A100C4F221 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92C795E8288B53CF00C4F221 /* DetailViewController.swift */,
+				92C795E9288B53CF00C4F221 /* DetailViewController.xib */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		92C795EC288D7DFC00C4F221 /* TestModule */ = {
+			isa = PBXGroup;
+			children = (
+				92C795ED288D7E8C00C4F221 /* MainTests.swift */,
+			);
+			path = TestModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C79595288AAFB200C4F221 /* Quilix Technical Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C795C0288AAFB400C4F221 /* Build configuration list for PBXNativeTarget "Quilix Technical Task" */;
+			buildPhases = (
+				92C79592288AAFB200C4F221 /* Sources */,
+				92C79593288AAFB200C4F221 /* Frameworks */,
+				92C79594288AAFB200C4F221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quilix Technical Task";
+			productName = "Quilix Technical Task";
+			productReference = 92C79596288AAFB200C4F221 /* Quilix Technical Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C795AB288AAFB400C4F221 /* Quilix Technical TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C795C3288AAFB400C4F221 /* Build configuration list for PBXNativeTarget "Quilix Technical TaskTests" */;
+			buildPhases = (
+				92C795A8288AAFB400C4F221 /* Sources */,
+				92C795A9288AAFB400C4F221 /* Frameworks */,
+				92C795AA288AAFB400C4F221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C795AE288AAFB400C4F221 /* PBXTargetDependency */,
+			);
+			name = "Quilix Technical TaskTests";
+			productName = "Quilix Technical TaskTests";
+			productReference = 92C795AC288AAFB400C4F221 /* Quilix Technical TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C795B5288AAFB400C4F221 /* Quilix Technical TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C795C6288AAFB400C4F221 /* Build configuration list for PBXNativeTarget "Quilix Technical TaskUITests" */;
+			buildPhases = (
+				92C795B2288AAFB400C4F221 /* Sources */,
+				92C795B3288AAFB400C4F221 /* Frameworks */,
+				92C795B4288AAFB400C4F221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C795B8288AAFB400C4F221 /* PBXTargetDependency */,
+			);
+			name = "Quilix Technical TaskUITests";
+			productName = "Quilix Technical TaskUITests";
+			productReference = 92C795B6288AAFB400C4F221 /* Quilix Technical TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C7958E288AAFB200C4F221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					92C79595288AAFB200C4F221 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					92C795AB288AAFB400C4F221 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 92C79595288AAFB200C4F221;
+					};
+					92C795B5288AAFB400C4F221 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 92C79595288AAFB200C4F221;
+					};
+				};
+			};
+			buildConfigurationList = 92C79591288AAFB200C4F221 /* Build configuration list for PBXProject "Quilix Technical Task" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C7958D288AAFB200C4F221;
+			productRefGroup = 92C79597288AAFB200C4F221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C79595288AAFB200C4F221 /* Quilix Technical Task */,
+				92C795AB288AAFB400C4F221 /* Quilix Technical TaskTests */,
+				92C795B5288AAFB400C4F221 /* Quilix Technical TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C79594288AAFB200C4F221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C795A6288AAFB400C4F221 /* LaunchScreen.storyboard in Resources */,
+				92C795A3288AAFB400C4F221 /* Assets.xcassets in Resources */,
+				412730EC288DE90300F2A70B /* CoinTableViewCell.xib in Resources */,
+				92C795EB288B53CF00C4F221 /* DetailViewController.xib in Resources */,
+				92C795A1288AAFB200C4F221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C795AA288AAFB400C4F221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C795B4288AAFB400C4F221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C79592288AAFB200C4F221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C795E4288B300C00C4F221 /* CoinManager.swift in Sources */,
+				412730EF288DE99D00F2A70B /* Extensions.swift in Sources */,
+				92C7959E288AAFB200C4F221 /* ViewController.swift in Sources */,
+				92C7959A288AAFB200C4F221 /* AppDelegate.swift in Sources */,
+				92C7959C288AAFB200C4F221 /* SceneDelegate.swift in Sources */,
+				92C795D7288ABD2E00C4F221 /* CoinData.swift in Sources */,
+				92C795D5288ABD0D00C4F221 /* CoinModel.swift in Sources */,
+				412730EB288DE90300F2A70B /* CoinTableViewCell.swift in Sources */,
+				92C795EA288B53CF00C4F221 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C795A8288AAFB400C4F221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C795EE288D7E8C00C4F221 /* MainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C795B2288AAFB400C4F221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C795BB288AAFB400C4F221 /* Quilix_Technical_TaskUITests.swift in Sources */,
+				92C795BD288AAFB400C4F221 /* Quilix_Technical_TaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C795AE288AAFB400C4F221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C79595288AAFB200C4F221 /* Quilix Technical Task */;
+			targetProxy = 92C795AD288AAFB400C4F221 /* PBXContainerItemProxy */;
+		};
+		92C795B8288AAFB400C4F221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C79595288AAFB200C4F221 /* Quilix Technical Task */;
+			targetProxy = 92C795B7288AAFB400C4F221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C7959F288AAFB200C4F221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C795A0288AAFB200C4F221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92C795A4288AAFB400C4F221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C795A5288AAFB400C4F221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C795BE288AAFB400C4F221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92C795BF288AAFB400C4F221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C795C1288AAFB400C4F221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S23B43M34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quilix Technical Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.Quilix-Technical-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92C795C2288AAFB400C4F221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S23B43M34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quilix Technical Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.Quilix-Technical-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92C795C4288AAFB400C4F221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S23B43M34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.Quilix-Technical-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quilix Technical Task.app/Quilix Technical Task";
+			};
+			name = Debug;
+		};
+		92C795C5288AAFB400C4F221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S23B43M34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.Quilix-Technical-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quilix Technical Task.app/Quilix Technical Task";
+			};
+			name = Release;
+		};
+		92C795C7288AAFB400C4F221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S23B43M34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.Quilix-Technical-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quilix Technical Task";
+			};
+			name = Debug;
+		};
+		92C795C8288AAFB400C4F221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S23B43M34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.Quilix-Technical-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quilix Technical Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C79591288AAFB200C4F221 /* Build configuration list for PBXProject "Quilix Technical Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C795BE288AAFB400C4F221 /* Debug */,
+				92C795BF288AAFB400C4F221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C795C0288AAFB400C4F221 /* Build configuration list for PBXNativeTarget "Quilix Technical Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C795C1288AAFB400C4F221 /* Debug */,
+				92C795C2288AAFB400C4F221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C795C3288AAFB400C4F221 /* Build configuration list for PBXNativeTarget "Quilix Technical TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C795C4288AAFB400C4F221 /* Debug */,
+				92C795C5288AAFB400C4F221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C795C6288AAFB400C4F221 /* Build configuration list for PBXNativeTarget "Quilix Technical TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C795C7288AAFB400C4F221 /* Debug */,
+				92C795C8288AAFB400C4F221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C7958E288AAFB200C4F221 /* Project object */;
+}
